@@ -9,4 +9,29 @@ together.
 Commands.
 git config --global user.name "Rajesh"
 git config --global user.email "rr6218a@gmail.com"
+what is git?
+Basically git is a Devops tool for source code managament.
+Its is a free and open source version control system used to manage small and la
+rge scale projects
+Git is used to track chages in source code and enable mutiple developer to work
+together.
+
+Commands.
+Global Command added
+git config --global --edit
+git config --global user.name "Rajesh"
+git config --global user.email "rr6218a@gmail.com"
+mkdir FolderName(create folder)
+cd FolderName(go to folder)
+git init(Create and initinalize git repository)
+ls -o(to see hidden file)
+git staus(chech the staus of file )
+git add .(add all file in folder)
+git commit -m "Messaage" (command used to commit)
+git log(used to see logs)
+git branch (see the which brach are we in and see all branches)
+git reset --soft Head-5(got to particualer commit)
+git master(point to firt comet)
+git stash pop(used to reset)==>shoe,list,apply
+git secerts(check complet history of each brach and checkeach differnt commits)
 
