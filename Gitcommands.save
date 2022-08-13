@@ -3,7 +3,11 @@ git is a devops tool used for source code management.
 It is a free and opensource version control sytem used to handle small to large scale projects
 git used to tracking the changes in source code and enabling the mutiple developer to work together.
 
-
-what is github?
-
+echo "# practice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:goud-tech1/practice.git
+git push -u origin main
 
