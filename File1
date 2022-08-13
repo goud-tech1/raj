@@ -5,15 +5,8 @@ rge scale projects
 Git is used to track chages in source code and enable mutiple developer to work
 together.
 
-Commands.
-what is git?
-Basically git is a Devops tool for source code managament.
-Its is a free and open source version control system used to manage small and la
-rge scale projects
-Git is used to track chages in source code and enable mutiple developer to work
-together.
 
 Commands.
+git config --global user.name "Rajesh"
+git config --global user.email "rr6218a@gmail.com"
 
-
-Welcome to devops 1 time
