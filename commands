@@ -1,0 +1,659 @@
+[root@ip-10-1-1-100 hello]# history
+    1  sudo
+    2  sudo wget http://nginx.org/keys/nginx_signing.key
+    3  sudo apt-key add nginx_signing.key
+    4  apt update
+    5  sudo amazon-linux-extras list | grep epel
+    6  sudo amazon-linux-extras enable epel
+    7  yum install epel-release
+    8  sudo yum install nginx
+    9  nginx -v
+   10  service nginx start
+   11  apt-get install git
+   12  yum install git
+   13  git --version
+   14  clear
+   15  ls
+   16  ls -a
+   17  ls .git
+   18  git init
+   19  touch names.txt
+   20  ls
+   21  git status
+   22  mkdir env
+   23  cd env
+   24  touch file1.txt
+   25  ls
+   26  git status
+   27  git init
+   28  clear
+   29  git add .
+   30  git status
+   31  git commit -m "names.txt file added"
+   32  git status
+   33  cat file1.txt
+   34  vim file1.txt
+   35  cat file1.txt
+   36  gi
+   37  git status
+   38  git add .
+   39  git status
+   40  git retore --staged names.txt
+   41  git restore --staged names.txt
+   42  git restore --staged file1.txt
+   43  git status
+   44  git add file1.txt
+   45  git status
+   46  git commit -m "file1.txt modified"
+   47  git status
+   48  git log
+   49  rm file1.txt
+   50  git status
+   51  clear
+   52  git add.
+   53  git add .
+   54  git commit -m "Hey file1.txt file deleted"
+   55  git log
+   56  git reset f451b9d7f7ef5cb1a169bd72dffd6801c99332ef
+   57  git log
+   58  clear
+   59  git log
+   60  git status
+   61  git add .
+   62  git statis
+   63  git status
+   64  touch raj.txt
+   65  git add .
+   66  git status
+   67  vim taj.txt
+   68  vim raj.txt
+   69  git status
+   70  git stash
+   71  git status
+   72  clear
+   73  ls
+   74  git status
+   75  rm taj.txt
+   76  git status
+   77  git staus
+   78  git
+   79  git status
+   80  clear
+   81  git status
+   82  git log
+   83  cat raj.txt
+   84  ls
+   85  git staush pop
+   86  git stash pop
+   87  clear
+   88  git add .
+   89  git stash clear
+   90  git status
+   91  git log
+   92  clear
+   93  git remote add origin git@github.com:goud-tech1/Community.git
+   94  git remote -v
+   95  git push origin master
+   96  git branch -M main
+   97  git push -u origin main
+   98  ssh-keygen -t ed25519 -C "raj6218a@gmail.com"
+   99  cat ~/.ssh/id_ed25519.pub
+  100  ssh -T git@github.com
+  101  git push -u origin main
+  102  clear
+  103  git push origin master
+  104  git push -u origin main
+  105  cat rajesh.text
+  106  touch rajesh.txt
+  107  vim rajesh
+  108  cd env
+  109  clear
+  110  history
+  111  ls
+  112  touch hotel.txt
+  113  git status
+  114  git log
+  115  clear
+  116  git add hotel.txt
+  117  git commit -m "Hotel.txt file added"
+  118  clear
+  119  git status
+  120  ls
+  121  lsgit log
+  122  git log
+  123  git push origin main
+  124  clear
+  125  cd env
+  126  git log
+  127  git branch status
+  128  clear
+  129  git branch -r
+  130  git branch testing
+  131  git checkout testing
+  132  git log
+  133  clear
+  134  git push origin testing
+  135  git fetch -all --prune
+  136  git fetch --all --prune
+  137  git chechout main
+  138  git checkout main
+  139  git branch -r
+  140  git fetch --all --prune
+  141  clear
+  142  python --version
+  143  python3 --version
+  144  pip3 --version
+  145  pip3 install boto3 -y
+  146  pip3 install boto3
+  147  python3
+  148  clear
+  149  cd env1
+  150  ll
+  151  cd Devopstraining
+  152  python App.py
+  153  ll
+  154  python3 App.py
+  155  clear
+  156  git log --oneline
+  157  nano App.py
+  158  git status
+  159  git add  App.py
+  160  git commit -m "#### Hashtag Added"
+  161  git status
+  162  git pust origin main
+  163  clear
+  164  git push origin main
+  165  vim App.py
+  166  git status
+  167  git add  App.py
+  168  git commit -m "#### Hashtag removed"
+  169  git status
+  170  clear
+  171  git push origin main
+  172  git push origin main -f
+  173  clear
+  174  vim App.py
+  175  git log --oneline
+  176  apt install python3 boto3 -y
+  177  apt install -y
+  178  python --version
+  179  yum update -y
+  180  apt instal
+  181  apt install
+  182  apt help
+  183  cd env1
+  184  ls
+  185  cd Devopstraining
+  186  apt
+  187  yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel xz-devel
+  188  cd /usr/src
+  189  wget https://www.python.org/ftp/python/3.7.11/Python-3.7.11.tgz
+  190  tar xzf Python-3.7.11.tgz
+  191  cd Python-3.7.11
+  192  ./configure --enable-optimizations
+  193  make altinstall
+  194  clear
+  195  python --version
+  196  python3 --version
+  197  apt install boto3
+  198  cd..
+  199  sudo su -
+  200  clear
+  201  cd env
+  202  ll
+  203  mkdir hello
+  204  ll
+  205  cd hello
+  206  clear
+  207  I=1
+  208  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; done
+  209  clear
+  210  ll
+  211  git status
+  212  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done
+  213  clear
+  214  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  215  clear
+  216  cd env
+  217  ll
+  218  mkdir hello
+  219  ll
+  220  cd hello
+  221  clear
+  222  I=1
+  223  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; done
+  224  clear
+  225  ll
+  226  git status
+  227  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done
+  228  clear
+  229  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  230  ll
+  231  I=1
+  232  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  233  clear
+  234  cd env
+  235  ll
+  236  mkdir hello
+  237  ll
+  238  cd hello
+  239  clear
+  240  I=1
+  241  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; done
+  242  clear
+  243  ll
+  244  git status
+  245  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done
+  246  clear
+  247  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  248  ll
+  249  I=1
+  250  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  251  clear
+  252  history
+  253  vim Commands
+  254  git branch commands
+  255  git branch
+  256  clear
+  257  git branch
+  258  git branch -b commands
+  259  git branch commands
+  260  clear
+  261  git status
+  262  git add .
+  263  git commit -m "new branch added name command"
+  264  git push origin main
+  265  git remote -v
+  266  git
+  267  git log
+  268  clear
+  269  cd env
+  270  cd hello
+  271  git status
+  272  ll
+  273  history
+  274  clear
+  275  history
+  276  nana cmds
+  277  nano cmds
+  278  ll
+  279  clear
+  280  git add .
+  281  git commit -m "Comments added"
+  282  git status
+  283  git branch
+  284  git chechout commands
+  285  git checkout commands
+  286  git branch
+  287  clear
+  288  git branch
+  289  git push origin main
+  290  git init
+  291  git clone 240  I=1
+  292    241  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; done
+  293    242  clear
+  294    243  ll
+  295    244  git status
+  296    245  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done
+  297    246  clear
+  298    247  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  299    248  ll
+  300    249  I=1
+  301    250  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  302    251  clear
+  303    252  history
+  304    253  vim Commands
+  305    254  git branch commands
+  306    255  git branch
+  307    256  clear
+  308    257  git branch
+  309    258  git branch -b commands
+  310    259  git branch commands
+  311    260  clear
+  312    261  git status
+  313    262  git add .
+  314    263  git commit -m "new branch added name command"
+  315    264  git push origin main
+  316    265  git remote -v
+  317    266  git
+  318    267  git log
+  319    268  clear
+  320    269  cd env
+  321    270  cd hello
+  322    271  git status
+  323    272  ll
+  324    273  history
+  325  [root@ip-10-1-1-100 hello]# clear
+  326  [root@ip-10-1-1-100 hello]# history
+  327      1  sudo
+  328      2  sudo wget http://nginx.org/keys/nginx_signing.key
+  329      3  sudo apt-key add nginx_signing.key
+  330      4  apt update
+  331      5  sudo amazon-linux-extras list | grep epel
+  332      6  sudo amazon-linux-extras enable epel
+  333      7  yum install epel-release
+  334      8  sudo yum install nginx
+  335      9  nginx -v
+  336     10  service nginx start
+  337     11  apt-get install git
+  338     12  yum install git
+  339     13  git --version
+  340     14  clear
+  341     15  ls
+  342     16  ls -a
+  343     17  ls .git
+  344     18  git init
+  345     19  touch names.txt
+  346     20  ls
+  347     21  git status
+  348     22  mkdir env
+  349     23  cd env
+  350     24  touch file1.txt
+  351     25  ls
+  352     26  git status
+  353     27  git init
+  354     28  clear
+  355     29  git add .
+  356     30  git status
+  357     31  git commit -m "names.txt file added"
+  358     32  git status
+  359     33  cat file1.txt
+  360     34  vim file1.txt
+  361     35  cat file1.txt
+  362     36  gi
+  363     37  git status
+  364     38  git add .
+  365     39  git status
+  366     40  git retore --staged names.txt
+  367     41  git restore --staged names.txt
+  368     42  git restore --staged file1.txt
+  369     43  git status
+  370     44  git add file1.txt
+  371     45  git status
+  372     46  git commit -m "file1.txt modified"
+  373     47  git status
+  374     48  git log
+  375     49  rm file1.txt
+  376     50  git status
+  377     51  clear
+  378     52  git add.
+  379     53  git add .
+  380     54  git commit -m "Hey file1.txt file deleted"
+  381     55  git log
+  382     56  git reset f451b9d7f7ef5cb1a169bd72dffd6801c99332ef
+  383     57  git log
+  384     58  clear
+  385     59  git log
+  386     60  git status
+  387     61  git add .
+  388     62  git statis
+  389     63  git status
+  390     64  touch raj.txt
+  391     65  git add .
+  392     66  git status
+  393     67  vim taj.txt
+  394     68  vim raj.txt
+  395     69  git status
+  396     70  git stash
+  397     71  git status
+  398     72  clear
+  399     73  ls
+  400     74  git status
+  401     75  rm taj.txt
+  402     76  git status
+  403     77  git staus
+  404     78  git
+  405     79  git status
+  406     80  clear
+  407     81  git status
+  408     82  git log
+  409     83  cat raj.txt
+  410     84  ls
+  411     85  git staush pop
+  412     86  git stash pop
+  413     87  clear
+  414     88  git add .
+  415     89  git stash clear
+  416     90  git status
+  417     91  git log
+  418     92  clear
+  419     93  git remote add origin git@github.com:goud-tech1/Community.git
+  420     94  git remote -v
+  421     95  git push origin master
+  422     96  git branch -M main
+  423     97  git push -u origin main
+  424     98  ssh-keygen -t ed25519 -C "raj6218a@gmail.com"
+  425     99  cat ~/.ssh/id_ed25519.pub
+  426    100  ssh -T git@github.com
+  427    101  git push -u origin main
+  428    102  clear
+  429    103  git push origin master
+  430    104  git push -u origin main
+  431    105  cat rajesh.text
+  432    106  touch rajesh.txt
+  433    107  vim rajesh
+  434    108  cd env
+  435    109  clear
+  436    110  history
+  437    111  ls
+  438    112  touch hotel.txt
+  439    113  git status
+  440    114  git log
+  441    115  clear
+  442    116  git add hotel.txt
+  443    117  git commit -m "Hotel.txt file added"
+  444    118  clear
+  445    119  git status
+  446    120  ls
+  447    121  lsgit log
+  448    122  git log
+  449    123  git push origin main
+  450    124  clear
+  451    125  cd env
+  452    126  git log
+  453    127  git branch status
+  454    128  clear
+  455    129  git branch -r
+  456    130  git branch testing
+  457    131  git checkout testing
+  458    132  git log
+  459    133  clear
+  460    134  git push origin testing
+  461    135  git fetch -all --prune
+  462    136  git fetch --all --prune
+  463    137  git chechout main
+  464    138  git checkout main
+  465    139  git branch -r
+  466    140  git fetch --all --prune
+  467    141  clear
+  468    142  python --version
+  469    143  python3 --version
+  470    144  pip3 --version
+  471    145  pip3 install boto3 -y
+  472    146  pip3 install boto3
+  473    147  python3
+  474    148  clear
+  475    149  cd env1
+  476    150  ll
+  477    151  cd Devopstraining
+  478    152  python App.py
+  479    153  ll
+  480    154  python3 App.py
+  481    155  clear
+  482    156  git log --oneline
+  483    157  nano App.py
+  484    158  git status
+  485    159  git add  App.py
+  486    160  git commit -m "#### Hashtag Added"
+  487    161  git status
+  488    162  git pust origin main
+  489    163  clear
+  490    164  git push origin main
+  491    165  vim App.py
+  492    166  git status
+  493    167  git add  App.py
+  494    168  git commit -m "#### Hashtag removed"
+  495    169  git status
+  496    170  clear
+  497    171  git push origin main
+  498    172  git push origin main -f
+  499    173  clear
+  500    174  vim App.py
+  501    175  git log --oneline
+  502    176  apt install python3 boto3 -y
+  503    177  apt install -y
+  504    178  python --version
+  505    179  yum update -y
+  506    180  apt instal
+  507    181  apt install
+  508    182  apt help
+  509    183  cd env1
+  510    184  ls
+  511    185  cd Devopstraining
+  512    186  apt
+  513    187  yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel xz-devel
+  514    188  cd /usr/src
+  515    189  wget https://www.python.org/ftp/python/3.7.11/Python-3.7.11.tgz
+  516    190  tar xzf Python-3.7.11.tgz
+  517    191  cd Python-3.7.11
+  518    192  ./configure --enable-optimizations
+  519    193  make altinstall
+  520    194  clear
+  521    195  python --version
+  522    196  python3 --version
+  523    197  apt install boto3
+  524    198  cd..
+  525    199  sudo su -
+  526    200  clear
+  527    201  cd env
+  528    202  ll
+  529    203  mkdir hello
+  530    204  ll
+  531    205  cd hello
+  532    206  clear
+  533    207  I=1
+  534    208  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; done
+  535    209  clear
+  536    210  ll
+  537    211  git status
+  538    212  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done
+  539    213  clear
+  540    214  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  541    215  clear
+  542    216  cd env
+  543    217  ll
+  544    218  mkdir hello
+  545    219  ll
+  546    220  cd hello
+  547    221  clear
+  548    222  I=1
+  549    223  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; done
+  550    224  clear
+  551    225  ll
+  552    226  git status
+  553    227  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done
+  554    228  clear
+  555    229  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  556    230  ll
+  557    231  I=1
+  558    232  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  559    233  clear
+  560    234  cd env
+  561    235  ll
+  562    236  mkdir hello
+  563    237  ll
+  564    238  cd hello
+  565    239  clear
+  566    240  I=1
+  567    241  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; done
+  568    242  clear
+  569    243  ll
+  570    244  git status
+  571    245  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done
+  572    246  clear
+  573    247  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  574    248  ll
+  575    249  I=1
+  576    250  while [ $I -lt 6 ]; do echo "Welcome to devops $I time" > File$I; sleep 1; git add . && git commit -m "Main commit $I"; I=$(( $1 + 1)); done | tee >> /tmp/comamnds
+  577    251  clear
+  578    252  history
+  579    253  vim Commands
+  580    254  git branch commands
+  581    255  git branch
+  582    256  clear
+  583    257  git branch
+  584    258  git branch -b commands
+  585    259  git branch commands
+  586    260  clear
+  587    261  git status
+  588    262  git add .
+  589    263  git commit -m "new branch added name command"
+  590    264  git push origin main
+  591    265  git remote -v
+  592    266  git
+  593    267  git log
+  594    268  clear
+  595    269  cd env
+  596    270  cd hello
+  597    271  git status
+  598    272  ll
+  599    273  history
+  600    274  clear
+  601    275  history
+  602  git clone git@github.com:goud-tech1/Community.git
+  603  ssh-keygen
+  604  clear
+  605  ssh-keygen
+  606  cat /root/.ssh/id_rsa.pub
+  607  git push origin main
+  608  restart
+  609  git remote -v
+  610  git init
+  611  git add README.md
+  612  clear
+  613  cat Readme.md
+  614  nano readme.ad
+  615  ll
+  616  nano readme.ad
+  617  ll
+  618  git add .
+  619  rm Community
+  620  rm -d Community
+  621  rm -r -v  Community
+  622  rm -d -i  Community
+  623  rm -d -i Community
+  624  rmdir Community
+  625  rmdir V Community
+  626  clear
+  627  rmdir Community
+  628  failed to remove ‘Community’: Directory not empty
+  629  rmdir -d Community
+  630  rmdir -r Community
+  631  rm -r
+  632  rm -r Community
+  633  clear
+  634  ll
+  635  rm Community
+  636  rmdir Community
+  637  rm -r
+  638  rm -r Community
+  639  ll
+  640  ls
+  641  clear
+  642  git add README.md
+  643  ll
+  644  git add readme.ad
+  645  git commit -m "first commit"
+  646  git branch -M main
+  647  git remote add origin git@github.com:goud-tech1/raj.git
+  648  git push -u origin main
+  649  clear
+  650  git branch CMDS
+  651  git add .
+  652  git commit -m "Branch added"
+  653  git push -u origin main
+  654  git branch
+  655  git chechout CMDS
+  656  git checkout CMDS
+  657  git branch
+  658  history
